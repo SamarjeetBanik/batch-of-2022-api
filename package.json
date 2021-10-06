@@ -1,0 +1,27 @@
+{
+  "name": "batch-of-2022-api",
+  "version": "1.0.0",
+  "description": "A REST-full API with CRUD operations for the ITER - Batch of 2022",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamarjeetBanik/batch-of-2022-api.git"
+  },
+  "author": "Samarjeet Banik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamarjeetBanik/batch-of-2022-api/issues"
+  },
+  "homepage": "https://github.com/SamarjeetBanik/batch-of-2022-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
+  }
+}
